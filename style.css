@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "relogio";
+  src: url("font/DS-DIGI.TTF");
+}
+@keyframes slide_colorBorder {
+  10% {
+    box-shadow: 4px 4px 40px rgb(110, 167, 233);
+    border: 5px solid rgb(110, 167, 233);
+  }
+  20% {
+    box-shadow: 4px 4px 40px blue;
+    border: 5px solid blue;
+  }
+
+  40% {
+    box-shadow: 4px 4px 40px red;
+    border: 5px solid red;
+  }
+
+  60% {
+    box-shadow: 4px 4px 40px pink;
+    border: 5px solid pink;
+  }
+  80% {
+    box-shadow: 4px 4px 40px cyan;
+    border: 5px solid cyan;
+  }
+  to {
+    box-shadow: 4px 4px 40px yellow;
+    border: 5px solid yellow;
+
+  }
+
+}
+
+@keyframes Color {
+  10% {
+    color: rgb(110, 167, 233);
+  }
+  20% {
+    color: blue;
+  }
+
+  40% {
+    color: red;
+  }
+
+  60% {
+    color: pink;
+  }
+  80% {
+    color: cyan;
+  }
+  to {
+    color: yellow;
+
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(1, 0, 17);
+  font-family: "relogio";
+}
+#display {
+  font-size: 49px;
+  background: none;
+  color: rgb(110, 167, 233);
+  animation-name: Color;
+  animation-duration: 2cd5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  transition: all 300ms ease-in-out;
+}
+
+.form {
+  border: 5px solid rgb(110, 167, 233);
+  animation-name: colorBorder;
+  width: 7cm;
+  height: 7cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px;
+  box-shadow: 4px 4px 40px rgb(110, 167, 233);
+  padding: 60px;
+  animation-name: slide_colorBorder;
+  animation-duration: 2cd5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  transition: all 300ms ease-in-out;
+}

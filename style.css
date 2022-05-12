@@ -100,7 +100,7 @@ body {
 }
 @media screen and (max-width: 993px) {
   #display {
-    font-size: 43px;
+    font-size: 30px;
     background: none;
     color: rgb(110, 167, 233);
     animation-name: Color;
@@ -113,14 +113,14 @@ body {
   .form {
     border: 5px solid rgb(110, 167, 233);
     animation-name: colorBorder;
-    width: 6cm;
-    height: 6cm;
+    width: 4cm;
+    height: 4cm;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 200px;
     box-shadow: 4px 4px 40px rgb(110, 167, 233);
-    padding: 50px;
+    padding: 40px;
     animation-name: slide_colorBorder;
     animation-duration: 25s;
     animation-iteration-count: infinite;

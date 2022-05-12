@@ -75,7 +75,7 @@ body {
   background: none;
   color: rgb(110, 167, 233);
   animation-name: Color;
-  animation-duration: 2cd5s;
+  animation-duration: 25s;
   animation-iteration-count: infinite;
   animation-delay: 2s;
   transition: all 300ms ease-in-out;
@@ -93,7 +93,7 @@ body {
   box-shadow: 4px 4px 40px rgb(110, 167, 233);
   padding: 60px;
   animation-name: slide_colorBorder;
-  animation-duration: 2cd5s;
+  animation-duration: 25s;
   animation-iteration-count: infinite;
   animation-delay: 2s;
   transition: all 300ms ease-in-out;

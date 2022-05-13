@@ -120,7 +120,7 @@ body {
     justify-content: center;
     border-radius: 200px;
     box-shadow: 4px 4px 40px rgb(110, 167, 233);
-    padding: 40px;
+    padding: 60px;
     animation-name: slide_colorBorder;
     animation-duration: 25s;
     animation-iteration-count: infinite;
